@@ -1,0 +1,50 @@
+{
+    "gamePk": 2020030231,
+    "link": "/api/v1/game/2020030231/feed/live",
+    "gameType": "P",
+    "season": "20202021",
+    "gameDate": "2021-05-31T00:00:00Z",
+    "status": {
+        "abstractGameState": "Preview",
+        "codedGameState": "1",
+        "detailedState": "Scheduled",
+        "statusCode": "1",
+        "startTimeTBD": false
+    },
+    "teams": {
+        "away": {
+            "leagueRecord": {
+                "wins": 4,
+                "losses": 3,
+                "type": "league"
+            },
+            "score": 0,
+            "team": {
+                "id": 54,
+                "name": "Vegas Golden Knights",
+                "link": "/api/v1/teams/54"
+            }
+        },
+        "home": {
+            "leagueRecord": {
+                "wins": 4,
+                "losses": 0,
+                "type": "league"
+            },
+            "score": 0,
+            "team": {
+                "id": 21,
+                "name": "Colorado Avalanche",
+                "link": "/api/v1/teams/21"
+            }
+        }
+    },
+    "venue": {
+        "id": 5064,
+        "name": "Ball Arena",
+        "link": "/api/v1/venues/5064"
+    },
+    "content": {
+        "link": "/api/v1/game/2020030231/content"
+    }
+}

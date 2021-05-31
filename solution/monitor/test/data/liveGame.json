@@ -1,0 +1,50 @@
+{
+    "gamePk": 2020030221,
+    "link": "/api/v1/game/2020030221/feed/live",
+    "gameType": "P",
+    "season": "20202021",
+    "gameDate": "2021-05-30T21:00:00Z",
+    "status": {
+        "abstractGameState": "Live",
+        "codedGameState": "3",
+        "detailedState": "In Progress",
+        "statusCode": "3",
+        "startTimeTBD": false
+    },
+    "teams": {
+        "away": {
+            "leagueRecord": {
+                "wins": 4,
+                "losses": 2,
+                "type": "league"
+            },
+            "score": 0,
+            "team": {
+                "id": 14,
+                "name": "Tampa Bay Lightning",
+                "link": "/api/v1/teams/14"
+            }
+        },
+        "home": {
+            "leagueRecord": {
+                "wins": 4,
+                "losses": 2,
+                "type": "league"
+            },
+            "score": 0,
+            "team": {
+                "id": 12,
+                "name": "Carolina Hurricanes",
+                "link": "/api/v1/teams/12"
+            }
+        }
+    },
+    "venue": {
+        "id": 5066,
+        "name": "PNC Arena",
+        "link": "/api/v1/venues/5066"
+    },
+    "content": {
+        "link": "/api/v1/game/2020030221/content"
+    }
+}
