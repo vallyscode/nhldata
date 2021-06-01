@@ -1,7 +1,7 @@
 # Desigh
 The idea is simple, loop on schedule endpoint until there will be some live game, then verify if that game is not already recording/recorded and fire a recorder process with feed link as argument. Recorder process will mark the feed link as recording and loops feed and save player details untill state changes to game over.
 
-![Design](solution/design.png)
+![Design](design.png)
 
 # Setup
 Prepare monitor process
