@@ -27,7 +27,7 @@ async function checkGamesState() {
     console.log(`${new Date().toUTCString()} -- recordable feeds: ${JSON.stringify(recordableFeeds)}`);
 
     recordableFeeds.forEach(recordableFeed => {
-        const rec = spawn('node', ["../recorder/src/main.js", "/api/v1/game/2020030221/feed/live"]);
+        const rec = spawn('node', ["../recorder/src/main.js", recordableFeed]);
         rec.stdout.on('data', (data) => {
             console.log(`stdout: ${data}`);
         });
