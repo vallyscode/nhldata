@@ -19,8 +19,7 @@ function findLiveGameFeeds(schedule) {
 }
 
 async function checkGamesState() {
-    // const schedule = await fetchSchedule();
-    const schedule = require("../data/schedule01.json");
+    const schedule = await fetchSchedule();
     const liveFeeds = findLiveGameFeeds(schedule);
     console.log(`${new Date().toUTCString()} -- live feeds: ${JSON.stringify(liveFeeds)}`);
 
